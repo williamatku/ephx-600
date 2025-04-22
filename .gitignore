@@ -9,3 +9,6 @@ Scripts
 ### ides ###
 .idea
 .vscode
+
+### prog out ###
+out*

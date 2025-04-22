@@ -32,14 +32,14 @@ def pstate(freqs, control_wire, wires):
 
 
 @qml.qnode(dev)
-def circuit_state(freqs, control_wire, wires):
+def encode_frequencies(freqs, control_wire, wires):
     """ adapted from https://pennylane.ai/qml/demos/tutorial_qft """
     pstate(freqs, control_wire, wires)
     return qml.state()
 
 
 @qml.qnode(dev)
-def circuit_qft_probs(freqs, control_wire, wires):
+def encode_frequencies_apply_qft(freqs, control_wire, wires):
     """ adapted from https://pennylane.ai/qml/demos/tutorial_qft """
     pstate(freqs, control_wire, wires)
     qml.QFT(wires=wires)
