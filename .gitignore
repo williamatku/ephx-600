@@ -6,9 +6,16 @@ share
 pyvenv.cfg
 Scripts
 
+### python ###
+__pycache__
+
 ### ides ###
 .idea
 .vscode
 
 ### prog out ###
 out*
+
+### os junk ###
+.DS_Store
+~$**
