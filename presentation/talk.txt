@@ -1,0 +1,13 @@
+Intro
+A misconceptions that I had starting this project was that Quantum Computing would make Classical Computing obsolete. With no shortage of exaggerated headlines in the tech space, this is an easy conclusion to come to. Today we’ll look at how Quantum computers transform some well established segments of computing, and see if they really have the power to replace classical computers, specifically in the area of signal processing. 
+
+Fourier Transform 
+Fourier Transforms, commonly referred to as FTs, are an extremely important group of functions that represent a signal in the form of sinusoids of various frequencies (IEEE). Fourier Transforms were discovered many time by many mathematicians, but the first notable publication came in 1807 by Jean Baptiste Joseph Fourier (IEEE). Since their initial publication, mathematicians have sought out ways to optimizing their calculations in order to be more useful in a world of high-importance, fast-paced signal processing (Dr Derek Muller). 
+ 
+Classical vs Quantum Computing 
+It is easy to write Quantum Computing off as just another incremental improvement to a machine that most people have become accustomed to, but Quantum Computing is, indeed, as big a technological leap forward as Classical computing was in 1937 (CHM). 
+Quantum Computers operate on a field of "Qubits" -- short for Quantum Bit" -- and encode data in a superposition of states. This means that while Classical Computers can only do calculations on 0s and 1s, Quantum Computers allow us to perform much more advanced calculations on a combination of "amplitudes applied to both 0 and 1" (IBM) much quicker by exploiting what we know about Quantum Mechanics. These calculations encode information about the probability of any Qubit being in a given state, therefore providing a much more thorough result compared to classical computers (IBM).
+
+The Move to Quantum 
+What this means for our Fourier Transforms. FTs have already been leveraged with Quantum Computers to perform essential operations on these Qubits, as they allow us to quickly convert Quantum Phases to a binary output.
+
